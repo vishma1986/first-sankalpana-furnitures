@@ -1,0 +1,273 @@
+
+*
+ {
+    margin: 0;
+    padding: 0;
+}
+
+/*-----navigation-----*/
+
+#nav-bar {
+    position: sticky;
+    padding:30px 0px;
+    z-index: 10;
+}
+.navbar-brand h3 {
+    
+    color: #fff;
+    text-align: left;
+    font-size: 14px;
+    font-family: Segoe Script;
+}
+
+.navbar-brand img {
+
+    height: 50px;
+    padding-left: 80px;
+}
+
+.navbar-nav li {
+        padding: 0 10px;
+    }
+
+.navbar-nav li a {
+    float: right;
+    text-align: left;
+}
+
+#nav-bar ul li a:hover {
+    color: blue !important;
+}
+
+.navbar {
+    
+    background: #000000;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*---Slider----*/
+#slider {
+  
+    padding-bottom:50px;
+    width: 100%;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial !important;
+}
+
+.carousel-caption h5 {
+        color: #fff;
+        font-size: 50px;
+}
+
+/*-----ABOUT-----*/
+
+#about {
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/products.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#about h1 {
+    text-align: center;
+    color: #efefef !important;
+    padding-bottom: 10px;
+    }
+.about-content{  
+    
+    color: #fff;
+    }
+/*----GALLERY----*/
+#gal h1 {
+    text-align: center;
+    color: #000000 !important;
+    padding-bottom: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+        border: 1px solid #777;
+    }
+
+div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#about h1 {
+    text-align: center;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+
+    /*--palleha command 2n black & white karala mouse eka point unama color wenawa--*/
+/*.gal-image .img-box img{
+        filter: grayscale(1);
+    }
+.gal-image .img-box img:hover{
+        filter: grayscale(0);
+        cursor: pointer;
+    }*/
+/*----wrapper----*/
+
+#wrapper {
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("wrapper 1.jpg");
+    background-size: cover;
+    background-position: top;
+    color: #efefef;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#wrapper h1 {
+        text-align: center;
+        color: #efefef !important;
+        padding-bottom: 10px;
+    }
+#wrapper h4 {
+        text-align: center;
+        color: #efefef !important;
+        padding-bottom: 10px;
+    }
+#wrapper h3 {
+        text-align: center;
+        color: #efefef !important;
+        padding-bottom: 10px;
+    }
+    .container {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+/*----contact------*/
+#contact{
+    background:#efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color:black;
+}
+.contact-form{
+    padding: 15px;
+}
+.form-control{
+    border-radius: 0 !important;
+    border: none!important;
+}
+.container {
+    color: #000000;
+}
+.follow {
+    color: #000000;
+}
+.contact-info .fa{
+    position:center;
+    margin: 10px;
+    color:#007bff;
+    font-weight: bold;
+}
+/*----contact wrapper----*/
+
+#wrapper-c {
+    background-image:url("cont.jpg");
+    background-size: cover;
+    background-position: bottom;
+    color: #efefef;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/*----about-about----*/
+#about-about{
+    color:black;
+}
+#about-about h1 {
+    text-align: center;
+    color: #000000 !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+.about-content1 {
+    width: 100%;
+    text-align: center;
+}
+
+/*-------footer-------*/
+#footer {
+    width: 100%;
+    background-color: #fff;
+    padding: 60px 0px;   
+}
+
+#footer .nav-link {
+    color: #222;
+    font-weight: 600;
+    font-size: 12px;
+}
+ #footer .nav-link:hover {
+        color: blue !important;
+    }
+#footer h1 {
+    text-align: center;
+    color: #222 !important;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.copyright {
+    color: #222 !important;
+    padding-top: 10px;
+    padding-bottom: 0px;          
+}
+.copyright h7 {
+        font-size: 12px;
+       
+}
